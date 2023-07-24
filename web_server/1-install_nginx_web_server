@@ -2,5 +2,6 @@
 # Bash script that Install nginx on your web-01 server and requirements
 apt-get update -y
 apt-get install nginx -y
+allow port 80(http)
 echo "Holberton School" > /var/www/html/index.html
 service nginx start
