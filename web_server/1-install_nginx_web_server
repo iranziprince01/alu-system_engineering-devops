@@ -3,4 +3,5 @@
 apt-get update -y
 apt-get install nginx -y
 echo "Holberton School" > /var/www/html/index.html
+sudo ufw allow 80/tcp
 service nginx start
