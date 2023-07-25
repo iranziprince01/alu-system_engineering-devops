@@ -3,15 +3,5 @@
 apt-get update -y
 apt-get install nginx -y
 echo "Holberton School" > /var/www/html/index.html
-server {
-    listen 80;
-    50.16.154.42;
-
-    root /var/www/html
-
-    location / {
-Holberton School
-    }
-}
 service nginx start
 
