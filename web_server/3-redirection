@@ -1,10 +1,18 @@
 #!/usr/bin/env bash
-# Configure your Nginx server so that /redirect_me is redirecting
-# to another page.
+
+# Configure your Nginx server to redirect /redirect_me to another page.
 sudo apt-get update -y
 sudo apt-get install -y nginx
 
-echo "Holberton School" > /var/www/html/index.nginx-debian.html
-sudo sed -i "/listen 80 default_server;/a rewrite return 301 https://twitter.com/jossvega103 permanent;" /etc/nginx/sites-enabled/default
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
+# Use sed to replace the existing rewrite rule with the 301 redirection
+redirect_url="https://twitter.com/jossvega103"
+sudo sed -i "s|rewrite ^/redirect_me .*;|return 301 $redirect_url;|" /etc/nginx/sites-enabled/default
+
+# Test the Nginx configuration for syntax errors
+sudo nginx -t
+
+# Restart Nginx to apply the changes
 sudo service nginx restart
+
