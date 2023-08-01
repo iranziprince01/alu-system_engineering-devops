@@ -1,4 +1,5 @@
-<h1>Background Context</h1>
+<h1>Load balancer</h1>
+<h2>Background Context</h2>
 <p>You have been given 2 additional servers:</p>
 
 web-02<br>
