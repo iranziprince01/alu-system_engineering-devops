@@ -4,6 +4,6 @@
 
 eval $("ssh-agent")
 
-ssh-add ~/.ssh/school
+ssh-add ~/.ssh/authorized_keys
 
 ssh ubuntu@50.16.154.42
