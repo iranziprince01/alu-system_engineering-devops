@@ -4,6 +4,6 @@
 
 eval $("ssh-agent")
 
-ssh-add ~/.ssh/authorized_keys
+ssh-add ~/.ssh/id_rsa
 
-ssh ubuntu@50.16.154.42
+ssh ubuntu@54.91.158.200
