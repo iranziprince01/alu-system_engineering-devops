@@ -64,12 +64,12 @@ For this project you will be given a container which you can use to solve the ta
 <em>curl</em>
 <h2>Requirements</h2>
 <h3>General</h3>
-Allowed editors: vi, vim, emacs
-All your files will be interpreted on Ubuntu 14.04 LTS
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-All your Bash script files must be executable
-Your Bash scripts must pass Shellcheck without any error
-Your Bash scripts must run without error
-The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-The second line of all your Bash scripts should be a comment explaining what is the script doing
+<p>Allowed editors: vi, vim, emacs</p>
+<p>All your files will be interpreted on Ubuntu 14.04 LTS</p>
+All your files should end with a new line<br>
+A README.md file, at the root of the folder of the project, is mandatory<br>
+All your Bash script files must be executable<br>
+Your Bash scripts must pass Shellcheck without any error<br>
+Your Bash scripts must run without error<br>
+The first line of all your Bash scripts should be exactly #!/usr/bin/env bash<br>
+The second line of all your Bash scripts should be a comment explaining what is the script doing<br>
